@@ -10,10 +10,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   </head>
   <body>
-    <div id="die1" class="dice">p</div>
-    <div id="die2" class="dice">l</div>
-    <button onclick="rolldice()">Roll Dice</button>
-    <h2 id="status"></h2>
+    <h1>PigDice</h1>
+    <p>Try your luck.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="die1" class="dice"><p>DICE 1</p></div>
+            </div>
+            <div class="col-md-6">
+                <div id="die2" class="dice"><p>DICE 2</p></div>
+            </div>
+            <button onclick="rolldice()">Roll Dice</button>
+            <h2 id="status"></h2>
+        </div>
+    <h4>Copyright (c) 2019 Brian Magwa</h4>
     <script src="../pigdice/js/styles.js"></script>
   </body>
 </html>

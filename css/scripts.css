@@ -1,12 +1,43 @@
 .dice {
-  width: 50px;
+  width: 100px;
   text-align: center;
-  background-color: rgba(0, 0, 1, 0) rgb(0, 0, 1);
-  border: #999 1px solid;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  border: rgb(238, 105, 28) 1px solid;
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   font-size: 24px;
 }
 body {
   background-image: url(../images/cyber-neon-dices-zebra\ \(2\).jpg);
+}
+.col-md-6 {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  width: 5px;
+}
+h2 {
+  text-decoration: blue;
+  text-align: center;
+}
+.row {
+  border: blue;
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+}
+h4 {
+  text-decoration: blue;
+  text-align: center;
+}
+h1 {
+  text-decoration: blue;
+  text-align: center;
+}
+p {
+  text-align: center;
 }

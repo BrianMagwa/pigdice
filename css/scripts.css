@@ -1,0 +1,12 @@
+.dice {
+  width: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0) rgb(0, 0, 0);
+  border: #999 1px solid;
+  padding: 10px;
+  margin: 5px;
+  font-size: 24px;
+}
+body {
+  background-image: url(../images/giphy\ \(3\).gif);
+}

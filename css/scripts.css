@@ -28,7 +28,7 @@ h2 {
 .row {
   border: blue;
   margin: 10px;
-  width: 100%;
+  width: 95%;
   text-align: center;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
@@ -60,5 +60,11 @@ button {
 .col-md-12 {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
-  margin-top: 5%;
+  margin-top: 10%;
+  height: 20%;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  margin: 30px auto;
 }

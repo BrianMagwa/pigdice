@@ -13,10 +13,7 @@ function rolldice() {
     
   }
 }
-function reset() {
-  document.getElementById("center").reset();
+function hold() { 
+  var finalScore = 0 += diceTotal;
+  finalScore.innerHTML = "You won "+finalScore+"."
 }
-// function hold() { 
-//   var finalScore = 0 += diceTotal;
-//   finalScore.innerHTML = "You won "+finalScore+"."
-// }

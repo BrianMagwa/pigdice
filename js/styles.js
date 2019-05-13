@@ -7,7 +7,7 @@ function rolldice() {
   var diceTotal = d1 + d2;
   die1.innerHTML = d1;
   die2.innerHTML = d2;
-  status.innerHTML = "You rolled "+diceTotal+".";
+  status.innerHTML = "You rolled "+diceTotal+"... You are a winner!!!";
   if (d1 == d2) {
     status.innerHTML += " DOUBLES! You get a free turn!!";
     

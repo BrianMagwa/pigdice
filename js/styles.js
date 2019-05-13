@@ -10,9 +10,14 @@ function rolldice() {
   status.innerHTML = "You rolled "+diceTotal+"...";
   if (d1 == d2) {
     status.innerHTML += " DOUBLES! You get a bonus win!!";
-    
-  }
-}
+    }
+    else if (d2 == 1) {
+      status.innerHTML = "YOU LOOSE!!!!";
+    }
+    else if (d1 == 1) {
+      status.innerHTML = "YOU LOOSE!!!!";
+    }
+  };
 // function hold() { 
 //   var finalScore = 0 += diceTotal;
 //   finalScore.innerHTML = "You won "+finalScore+"."
